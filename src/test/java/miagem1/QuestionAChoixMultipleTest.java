@@ -15,7 +15,7 @@ public class QuestionAChoixMultipleTest {
   private List<Integer> indicesBonnesReponses = new ArrayList<Integer>(Arrays.asList(1,2));
   @Before
   public void setUp() throws Exception {
-    uneQuestion = new QuestionAChoixMultiple("enonce",indicesBonnesReponses);
+    uneQuestion = new QuestionAChoixMultiple("enonce",indicesBonnesReponses,5);
   }
 
   @Test
